@@ -1,0 +1,34 @@
+body {
+    background-image: url("https://i.ibb.co/CnfhZbP/BG-Pattern.jpg");
+    background-color: #teal;
+    background-repeat: auto;
+    background-size: 15%;
+    }
+    
+    #container{
+      display: grid;
+      height: 100vh;
+      width: 79vw;
+      background-color: Teal;
+      padding: 25px;
+      margin: 1.5vh auto;
+      
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-row-gap: 2.5px;
+      grid-column-gap: 2.5px;
+    }
+    
+    #cell1{
+      grid-column: 1 / span 1;
+      grid-row: 1 / span 1;
+      background-color: green;
+      text-align: center;
+    }
+    
+    img{
+      width: 100%;
+      height:100%;
+    }
+    
+    /*<a href="https://ibb.co/Jz954v3"><img src="https://i.ibb.co/CnfhZbP/BG-Pattern.jpg" alt="BG-Pattern" border="0"></a><br /><a target='_blank' href='https://nonprofitlight.com/ok/oklahoma-city/hobby-lobby-stores-inc-medical-and-dental-plan-trust'>hobby lobby owasso</a><br />
